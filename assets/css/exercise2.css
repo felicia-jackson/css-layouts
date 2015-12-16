@@ -1,0 +1,32 @@
+body {
+  margin:auto;
+  padding:10%;
+  background-color:white;
+  color:white;
+}
+div {
+  width:100%;
+}
+div.container {
+  height:100%;
+}
+div.header {
+  height:20px;
+  background-color:pink;
+}
+div.sidebar {
+  background-color:orange;
+  width:25%;
+  height:170px;
+  float:left;
+}
+div.content {
+  background-color:blue;
+  float:right;
+  width:75%;
+  height:170px; 
+}
+div.footer {
+  background-color:green;
+  height:10%;
+}
