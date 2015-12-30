@@ -4,29 +4,27 @@ body {
   background-color:white;
   color:white;
 }
-div {
-  width:100%;
-}
-div.container {
+
+.container {
   height:100%;
 }
-div.header {
+.header {
   height:20px;
   background-color:pink;
 }
-div.sidebar {
+.sidebar {
   background-color:orange;
   width:25%;
   height:170px;
   float:left;
 }
-div.content {
+.content {
   background-color:blue;
-  float:right;
+  float:left;
   width:75%;
   height:170px; 
-}
-div.footer {
+}.footer {
   background-color:green;
   height:10%;
+  clear:both;
 }

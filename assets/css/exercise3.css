@@ -1,0 +1,62 @@
+body {
+  margin:auto;
+}
+.header {
+  height:40px;
+  background-color:orange;
+  color:white;
+} 
+.wrapper {
+  background-color: blue;
+  color:white;
+  padding:15px;
+  overflow:auto;
+}
+.Widget {
+  background-color:red;
+  color:white;
+  float:left;
+  width:150px;
+  height: 150px;
+  margin: 45px;
+  border-radius: 6px;
+}
+.gadget {
+  background-color: pink;
+  float:left;
+  width:150px;
+  height: 150px;
+  margin:45px;
+  border-radius: 15px; 
+}
+.widgetBlue {
+  background-color: #81d8d0;
+  float:left;
+  width:150px;
+  height: 150px;
+  margin:45px;
+  border-radius: 6px; 
+}
+.gadgetBlue {
+  background-color: #376180;
+  float:left;
+  width:150px;
+  height: 150px;
+  margin:45px;
+  border-radius: 15px; 
+}
+.Widget .subWidget {
+  background-color: white;
+  color:black;
+  font-size: 15px;
+  float:middle;
+  width:75px;
+  height: 20px;
+  margin:15px;
+}
+.footer {
+  background-color:green;
+  color:white;
+  height:40px;
+  clear:both;
+}

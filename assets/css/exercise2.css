@@ -1,32 +1,41 @@
 body {
   margin:auto;
-  padding:10%;
+  padding:40px;
   background-color:white;
   color:white;
 }
-div {
-  width:100%;
-}
-div.container {
+.container {
   height:100%;
 }
-div.header {
-  height:20px;
+.header {
+  width:100%;
   background-color:pink;
 }
-div.sidebar {
+.sidebar {
   background-color:orange;
   width:25%;
-  height:170px;
+  height:200px;
   float:left;
 }
-div.content {
+.content {
   background-color:blue;
   float:right;
   width:75%;
-  height:170px; 
+  height:200px; 
 }
-div.footer {
+.footer {
   background-color:green;
   height:10%;
+  clear:both;
 }
+.header .Logo {
+  background-color:#EF233C;
+  width:30%;
+  float:left;
+}
+.header .Navigation {
+  background-color: red;
+  width:70%;
+  float:left;
+
+
